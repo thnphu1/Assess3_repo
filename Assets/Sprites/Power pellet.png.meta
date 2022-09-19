@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01bf482ed1f48de498a0c24d6de3eed9
+guid: 77caa457c1481b345b40d28f9f29f9e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost Yellow_0
+      name: Power pellet_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 97
-        width: 15
-        height: 15
+        x: 22
+        y: 22
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,50 +120,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 043710a683c0ae343a6f83d1505a9661
-      internalID: 161772282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost Yellow_1
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 97
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a196508728442d4cba2451b02a5b262
-      internalID: 942005104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost Yellow_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 33
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21e1f0155d1143b4c9463bff22b77e92
-      internalID: -1340603711
+      spriteID: c95b90a8d3ef1e5498498849b22600f9
+      internalID: -150103121
       vertices: []
       indices: 
       edges: []
@@ -179,9 +137,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost Yellow_1: 942005104
-      Ghost Yellow_2: -1340603711
-      Ghost Yellow_0: 161772282
+      Power pellet_0: -150103121
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
