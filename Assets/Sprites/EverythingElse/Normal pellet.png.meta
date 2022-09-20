@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8af3f1a078b4c4f49a0b9bb131af79da
+guid: ad0903bf7f099f44788ab19fc700f800
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -68,7 +68,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost Red_0
+      name: Normal pellet_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 97
-        width: 15
-        height: 15
+        x: 28
+        y: 29
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,50 +120,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c56c6bb94a041634d9dbe6930adba9fa
-      internalID: -1400635055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost Red_1
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 97
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb0c36bf83c39b34e8e89b42152577f3
-      internalID: 2107119033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost Red_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 33
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7161a531fc80fe144a9eaa640f6e159e
-      internalID: 219845376
+      spriteID: 7774b6ee73378b940b7ef8c406d90b73
+      internalID: -1698747284
       vertices: []
       indices: 
       edges: []
@@ -179,9 +137,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost Red_2: 219845376
-      Ghost Red_0: -1400635055
-      Ghost Red_1: 2107119033
+      Normal pellet_0: -1698747284
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

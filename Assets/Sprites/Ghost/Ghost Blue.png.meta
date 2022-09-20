@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad0903bf7f099f44788ab19fc700f800
+guid: f462271f258602047b1fe668f72a33f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -68,7 +68,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Normal pellet_0
+      name: Ghost Blue_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 29
-        width: 7
-        height: 7
+        x: 20
+        y: 97
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,8 +120,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7774b6ee73378b940b7ef8c406d90b73
-      internalID: -1698747284
+      spriteID: 518886f22341ebe42b29ce1f990c1ea8
+      internalID: 244361192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost Blue_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 97
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24926c7ca3c65944d85b5fd7544872cf
+      internalID: -1550012596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost Blue_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 33
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c93c43d28e09b749bf158925f6cf0ee
+      internalID: 391091277
       vertices: []
       indices: 
       edges: []
@@ -137,7 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Normal pellet_0: -1698747284
+      Ghost Blue_0: 244361192
+      Ghost Blue_1: -1550012596
+      Ghost Blue_2: 391091277
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
