@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f462271f258602047b1fe668f72a33f3
+guid: 8af3f1a078b4c4f49a0b9bb131af79da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -68,7 +68,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost Blue_0
+      name: Ghost Red_0
       rect:
         serializedVersion: 2
         x: 20
@@ -120,14 +120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518886f22341ebe42b29ce1f990c1ea8
-      internalID: 244361192
+      spriteID: c56c6bb94a041634d9dbe6930adba9fa
+      internalID: -1400635055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost Blue_1
+      name: Ghost Red_1
       rect:
         serializedVersion: 2
         x: 84
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24926c7ca3c65944d85b5fd7544872cf
-      internalID: -1550012596
+      spriteID: eb0c36bf83c39b34e8e89b42152577f3
+      internalID: 2107119033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost Blue_2
+      name: Ghost Red_2
       rect:
         serializedVersion: 2
         x: 20
@@ -162,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c93c43d28e09b749bf158925f6cf0ee
-      internalID: 391091277
+      spriteID: 7161a531fc80fe144a9eaa640f6e159e
+      internalID: 219845376
       vertices: []
       indices: 
       edges: []
@@ -179,9 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost Blue_0: 244361192
-      Ghost Blue_1: -1550012596
-      Ghost Blue_2: 391091277
+      Ghost Red_2: 219845376
+      Ghost Red_0: -1400635055
+      Ghost Red_1: 2107119033
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
