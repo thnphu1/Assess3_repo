@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     public Ghost[] ghosts;
 
-    public pacStudent pacStudent;
+   public pacStudent pacStudent;
 
     public Transform pellets;
 
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
             this.ghosts[i].gameObject.SetActive(true);
         }
 
-        this.pacStudent.gameObject.SetActive(true);
+        //this.pacStudent.gameObject.SetActive(true);
     }
 
     private void GameOver()
