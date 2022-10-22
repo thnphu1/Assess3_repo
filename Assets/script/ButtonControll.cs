@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ButtonControll : MonoBehaviour
 {
     [SerializeField] private string enterLevel1 = "Level1";
+    [SerializeField] private string StartScene = "StartScene";
 
     // Start is called before the first frame update
     void Start()
@@ -22,5 +23,10 @@ public class ButtonControll : MonoBehaviour
     public void Level1Button()
     {
         SceneManager.LoadScene(enterLevel1);
+    }
+
+    public void ExitButton()
+    {
+        SceneManager.LoadScene(StartScene);
     }
 }
