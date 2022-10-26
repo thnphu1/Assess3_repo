@@ -5616,7 +5616,7 @@ GameObject:
   - component: {fileID: 407391781}
   - component: {fileID: 407391782}
   - component: {fileID: 407391784}
-  - component: {fileID: 407391783}
+  - component: {fileID: 407391785}
   m_Layer: 6
   m_Name: pacStudent
   m_TagString: Untagged
@@ -5748,20 +5748,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &407391783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407391777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfab11b8a0fcb9f42a8698e8a7338efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walk: {fileID: 853529372}
-  pacStudent_0: {fileID: 407391779}
 --- !u!114 &407391784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5780,6 +5766,20 @@ MonoBehaviour:
   obstacle_layer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &407391785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407391777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5d077f7e4974f48aae209a0a005c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walk: {fileID: 853529372}
+  pacStudent_0: {fileID: 407391779}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6770,7 +6770,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghosts: []
-  pacStudent: {fileID: 407391783}
+  pacStudent: {fileID: 0}
+  PacStudentController: {fileID: 0}
   pellets: {fileID: 1717485291}
 --- !u!4 &953962790
 Transform:

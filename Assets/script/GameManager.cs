@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour
 
     public Ghost[] ghosts;
 
-   public pacStudent pacStudent;
+    //public pacStudent pacStudent;
+
+    public PacStudentController PacStudentController;
 
     public Transform pellets;
 
@@ -66,7 +68,7 @@ public class GameManager : MonoBehaviour
             this.ghosts[i].gameObject.SetActive(false);
         }
 
-        this.pacStudent.gameObject.SetActive(false);
+        this.PacStudentController.gameObject.SetActive(false);
     }
     private void SetScore(int score)
     {
@@ -85,7 +87,7 @@ public class GameManager : MonoBehaviour
 
     public void PacmanEaten()
     {
-        this.pacStudent.gameObject.SetActive(false);
+        this.PacStudentController.gameObject.SetActive(false);
 
         SetLives(this.lives - 1);
 
