@@ -7,7 +7,7 @@ public class PacStudentController : MonoBehaviour
     public Movement movement { get; private set; }
     public AudioSource walk;
     public Animator pacStudent_0;
-    int[] instructions = new int[4];
+    int[] lastInput = new int[4];
     // Start is called before the first frame update
     void Start()
     {
@@ -48,19 +48,19 @@ public class PacStudentController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
             {
-                instructions[i] = 1;
+                lastInput[i] = 1;
             }
             else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
-                instructions[i] = 2;
+                lastInput[i] = 2;
             }
             else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
             {
-                instructions[i] = 3;
+                lastInput[i] = 3;
             }
             else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
             {
-                instructions[i] = 4;
+                lastInput[i] = 4;
             }
         }
     }
